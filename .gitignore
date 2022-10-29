@@ -1,3 +1,12 @@
+# my current venv
+bin/
+etc/
+include/
+share/
+lib64
+pyvenv.cfg
+constants.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
