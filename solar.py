@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 
-# import os
+""" Solar position lab"""
+
+import os
 import datetime
-import requests
 import sys
-from constants import constant1, constant2
+import requests
+from dotenv import load_dotenv
 
-ASTRONOMYAPI_ID = constant1
-ASTRONOMYAPI_SECRET = constant2
-
-# ASTRONOMYAPI_ID=os.environ.get("ASTRONOMYAPI_ID")
-# ASTRONOMYAPI_SECRET=os.environ.get("ASTRONOMYAPI_SECRET")
+load_dotenv()
+ASTRONOMYAPI_ID = os.getenv("ASTRONOMYAPI_ID")
+ASTRONOMYAPI_SECRET = os.getenv("ASTRONOMYAPI_SECRET")
 
 
 def get_observer_location():
