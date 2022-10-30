@@ -1,0 +1,11 @@
+# Similar to gitignore
+__pycache__
+.pytest_cache
+bin/
+include/
+share/
+lib
+lib64
+pyvenv.cfg
+*pytest
+test_solar.py
